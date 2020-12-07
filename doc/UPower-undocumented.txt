@@ -1,0 +1,73 @@
+71% symbol docs coverage.
+115 symbols documented.
+20 symbols incomplete.
+48 not documented.
+
+
+UP_CHECK_VERSION (major, minor, micro)
+UP_CLIENT_ERROR
+UP_CLIENT_TYPE_ERROR
+UP_DEVICE_ERROR
+UP_DEVICE_TYPE_ERROR
+UP_MAJOR_VERSION
+UP_MINOR_VERSION
+UP_WAKEUPS_ERROR
+UP_WAKEUPS_TYPE_ERROR
+UpDeviceKind (<items>)
+UpDeviceLevel (<items>)
+UpDeviceState (<items>)
+UpDeviceTechnology (<items>)
+UpHistoryItem:state
+UpHistoryItem:time
+UpHistoryItem:value
+UpStatsItem:accuracy
+UpStatsItem:value
+UpWakeupItem:cmdline
+UpWakeupItem:details
+UpWakeupItem:id
+UpWakeupItem:is-userspace
+UpWakeupItem:old
+UpWakeupItem:value
+data_changed (<parameters>)
+total_changed (<parameters>)
+up_device_kind_from_string (type)
+up_device_kind_to_string (type_enum)
+up_device_level_from_string (level)
+up_device_level_to_string (level_enum)
+up_device_state_from_string (state)
+up_device_state_to_string (state_enum)
+up_device_technology_from_string (technology)
+up_device_technology_to_string (technology_enum)
+up_history_item_class_init
+up_history_item_finalize
+up_history_item_get_property
+up_history_item_init
+up_history_item_new
+up_history_item_set_from_string (text)
+up_history_item_set_property
+up_stats_item_class_init
+up_stats_item_finalize
+up_stats_item_get_accuracy (stats_item)
+up_stats_item_get_property
+up_stats_item_get_value (stats_item)
+up_stats_item_init
+up_stats_item_new
+up_stats_item_set_accuracy (stats_item, accuracy)
+up_stats_item_set_property
+up_stats_item_set_value (stats_item, value)
+up_wakeup_item_class_init
+up_wakeup_item_finalize
+up_wakeup_item_get_property
+up_wakeup_item_init
+up_wakeup_item_new
+up_wakeup_item_set_property
+up_wakeups_class_init
+up_wakeups_data_changed_cb
+up_wakeups_finalize
+up_wakeups_init
+up_wakeups_total_changed_cb
+
+up-autocleanups:long_description
+up-autocleanups:short_description
+up-wakeups:long_description
+up-wakeups:short_description

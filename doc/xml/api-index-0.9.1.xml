@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+[
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY % gtkdocentities SYSTEM "../xml/gtkdocentities.ent">
+  %gtkdocentities;
+]>
+<indexdiv id="api-index-0.9.1">
+<indexdiv><title>H</title>
+<indexentry><primaryie linkends="up-history-item-set-from-string"><link linkend="up-history-item-set-from-string">up_history_item_set_from_string</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-set-time-to-present"><link linkend="up-history-item-set-time-to-present">up_history_item_set_time_to_present</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-to-string"><link linkend="up-history-item-to-string">up_history_item_to_string</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>W</title>
+<indexentry><primaryie linkends="up-wakeups-get-data-sync"><link linkend="up-wakeups-get-data-sync">up_wakeups_get_data_sync</link>, function in <link linkend="UPower-up-wakeups">up-wakeups</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeups-get-has-capability"><link linkend="up-wakeups-get-has-capability">up_wakeups_get_has_capability</link>, function in <link linkend="UPower-up-wakeups">up-wakeups</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeups-get-properties-sync"><link linkend="up-wakeups-get-properties-sync">up_wakeups_get_properties_sync</link>, function in <link linkend="UPower-up-wakeups">up-wakeups</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeups-get-total-sync"><link linkend="up-wakeups-get-total-sync">up_wakeups_get_total_sync</link>, function in <link linkend="UPower-up-wakeups">up-wakeups</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeups-new"><link linkend="up-wakeups-new">up_wakeups_new</link>, function in <link linkend="UPower-up-wakeups">up-wakeups</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

@@ -1,0 +1,10 @@
+GObject
+  UpClient
+  UpDevice
+  UpHistoryItem
+  UpStatsItem
+  UpWakeupItem
+  UpWakeups
+GInterface
+  GTypePlugin
+  GInitable

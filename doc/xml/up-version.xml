@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+[
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY % gtkdocentities SYSTEM "../xml/gtkdocentities.ent">
+  %gtkdocentities;
+]>
+<refentry id="UPower-up-version">
+<refmeta>
+<refentrytitle role="top_of_page" id="UPower-up-version.top_of_page">up-version</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>UPOWER Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>up-version</refname>
+<refpurpose>Obtains the version for the installed UPower</refpurpose>
+</refnamediv>
+
+<refsect1 id="UPower-up-version.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="UP-CHECK-VERSION:CAPS">UP_CHECK_VERSION</link><phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="UPower-up-version.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="UP-MAJOR-VERSION:CAPS">UP_MAJOR_VERSION</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="UP-MINOR-VERSION:CAPS">UP_MINOR_VERSION</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="UP-MICRO-VERSION:CAPS">UP_MICRO_VERSION</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+
+<refsect1 id="UPower-up-version.description" role="desc">
+<title role="desc.title">Description</title>
+<para>These compile time macros allow the user to enable parts of client code
+depending on the version of libupower-glib installed.</para>
+
+</refsect1>
+<refsect1 id="UPower-up-version.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="UP-CHECK-VERSION:CAPS" role="macro">
+<title>UP_CHECK_VERSION()</title>
+<indexterm zone="UP-CHECK-VERSION:CAPS"><primary>UP_CHECK_VERSION</primary></indexterm>
+<programlisting language="C">#define             UP_CHECK_VERSION(major,minor,micro)</programlisting>
+<para>The compile-time major version</para>
+</refsect2>
+
+</refsect1>
+<refsect1 id="UPower-up-version.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="UP-MAJOR-VERSION:CAPS" role="macro">
+<title>UP_MAJOR_VERSION</title>
+<indexterm zone="UP-MAJOR-VERSION:CAPS"><primary>UP_MAJOR_VERSION</primary></indexterm>
+<programlisting language="C">#define UP_MAJOR_VERSION				(0)
+</programlisting>
+</refsect2>
+<refsect2 id="UP-MINOR-VERSION:CAPS" role="macro">
+<title>UP_MINOR_VERSION</title>
+<indexterm zone="UP-MINOR-VERSION:CAPS"><primary>UP_MINOR_VERSION</primary></indexterm>
+<programlisting language="C">#define UP_MINOR_VERSION				(99)
+</programlisting>
+</refsect2>
+<refsect2 id="UP-MICRO-VERSION:CAPS" role="macro">
+<title>UP_MICRO_VERSION</title>
+<indexterm zone="UP-MICRO-VERSION:CAPS"><primary>UP_MICRO_VERSION</primary></indexterm>
+<programlisting language="C">#define UP_MICRO_VERSION				(11)
+</programlisting>
+<para>The compile-time micro version</para>
+</refsect2>
+
+</refsect1>
+<refsect1 id="UPower-up-version.see-also">
+<title>See Also</title>
+<para><link linkend="UpClient"><type>UpClient</type></link>, <link linkend="UpDevice"><type>UpDevice</type></link></para>
+
+</refsect1>
+
+</refentry>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+[
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY % gtkdocentities SYSTEM "../xml/gtkdocentities.ent">
+  %gtkdocentities;
+]>
+<indexdiv id="api-index-0.9.0">
+<indexdiv><title>C</title>
+<indexentry><primaryie linkends="UpClient-device-added"><link linkend="UpClient-device-added">UpClient::device-added</link>, object signal in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpClient--daemon-version"><link linkend="UpClient--daemon-version">UpClient:daemon-version</link>, object property in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpClient--lid-is-closed"><link linkend="UpClient--lid-is-closed">UpClient:lid-is-closed</link>, object property in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpClient--lid-is-present"><link linkend="UpClient--lid-is-present">UpClient:lid-is-present</link>, object property in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpClient--on-battery"><link linkend="UpClient--on-battery">UpClient:on-battery</link>, object property in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-client-get-daemon-version"><link linkend="up-client-get-daemon-version">up_client_get_daemon_version</link>, function in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-client-get-devices"><link linkend="up-client-get-devices">up_client_get_devices</link>, function in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-client-get-lid-is-closed"><link linkend="up-client-get-lid-is-closed">up_client_get_lid_is_closed</link>, function in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-client-get-on-battery"><link linkend="up-client-get-on-battery">up_client_get_on_battery</link>, function in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-client-new"><link linkend="up-client-new">up_client_new</link>, function in <link linkend="UpClient">UpClient</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>D</title>
+<indexentry><primaryie linkends="UpDevice--capacity"><link linkend="UpDevice--capacity">UpDevice:capacity</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--energy"><link linkend="UpDevice--energy">UpDevice:energy</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--energy-empty"><link linkend="UpDevice--energy-empty">UpDevice:energy-empty</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--energy-full"><link linkend="UpDevice--energy-full">UpDevice:energy-full</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--energy-full-design"><link linkend="UpDevice--energy-full-design">UpDevice:energy-full-design</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--energy-rate"><link linkend="UpDevice--energy-rate">UpDevice:energy-rate</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--has-history"><link linkend="UpDevice--has-history">UpDevice:has-history</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--has-statistics"><link linkend="UpDevice--has-statistics">UpDevice:has-statistics</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--is-present"><link linkend="UpDevice--is-present">UpDevice:is-present</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--is-rechargeable"><link linkend="UpDevice--is-rechargeable">UpDevice:is-rechargeable</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--kind"><link linkend="UpDevice--kind">UpDevice:kind</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--model"><link linkend="UpDevice--model">UpDevice:model</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--native-path"><link linkend="UpDevice--native-path">UpDevice:native-path</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--online"><link linkend="UpDevice--online">UpDevice:online</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--percentage"><link linkend="UpDevice--percentage">UpDevice:percentage</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--power-supply"><link linkend="UpDevice--power-supply">UpDevice:power-supply</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--serial"><link linkend="UpDevice--serial">UpDevice:serial</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--state"><link linkend="UpDevice--state">UpDevice:state</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--technology"><link linkend="UpDevice--technology">UpDevice:technology</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--time-to-empty"><link linkend="UpDevice--time-to-empty">UpDevice:time-to-empty</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--time-to-full"><link linkend="UpDevice--time-to-full">UpDevice:time-to-full</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--update-time"><link linkend="UpDevice--update-time">UpDevice:update-time</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--vendor"><link linkend="UpDevice--vendor">UpDevice:vendor</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpDevice--voltage"><link linkend="UpDevice--voltage">UpDevice:voltage</link>, object property in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-get-history-sync"><link linkend="up-device-get-history-sync">up_device_get_history_sync</link>, function in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-get-object-path"><link linkend="up-device-get-object-path">up_device_get_object_path</link>, function in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-get-statistics-sync"><link linkend="up-device-get-statistics-sync">up_device_get_statistics_sync</link>, function in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-kind-from-string"><link linkend="up-device-kind-from-string">up_device_kind_from_string</link>, function in <link linkend="UPower-up-types">up-types</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-kind-to-string"><link linkend="up-device-kind-to-string">up_device_kind_to_string</link>, function in <link linkend="UPower-up-types">up-types</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-new"><link linkend="up-device-new">up_device_new</link>, function in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-refresh-sync"><link linkend="up-device-refresh-sync">up_device_refresh_sync</link>, function in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-set-object-path-sync"><link linkend="up-device-set-object-path-sync">up_device_set_object_path_sync</link>, function in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-state-from-string"><link linkend="up-device-state-from-string">up_device_state_from_string</link>, function in <link linkend="UPower-up-types">up-types</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-state-to-string"><link linkend="up-device-state-to-string">up_device_state_to_string</link>, function in <link linkend="UPower-up-types">up-types</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-technology-from-string"><link linkend="up-device-technology-from-string">up_device_technology_from_string</link>, function in <link linkend="UPower-up-types">up-types</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-technology-to-string"><link linkend="up-device-technology-to-string">up_device_technology_to_string</link>, function in <link linkend="UPower-up-types">up-types</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-device-to-text"><link linkend="up-device-to-text">up_device_to_text</link>, function in <link linkend="UpDevice">UpDevice</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>H</title>
+<indexentry><primaryie linkends="UpHistoryItem--state"><link linkend="UpHistoryItem--state">UpHistoryItem:state</link>, object property in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpHistoryItem--time"><link linkend="UpHistoryItem--time">UpHistoryItem:time</link>, object property in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpHistoryItem--value"><link linkend="UpHistoryItem--value">UpHistoryItem:value</link>, object property in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-get-state"><link linkend="up-history-item-get-state">up_history_item_get_state</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-get-time"><link linkend="up-history-item-get-time">up_history_item_get_time</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-get-value"><link linkend="up-history-item-get-value">up_history_item_get_value</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-new"><link linkend="up-history-item-new">up_history_item_new</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-set-state"><link linkend="up-history-item-set-state">up_history_item_set_state</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-set-time"><link linkend="up-history-item-set-time">up_history_item_set_time</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-history-item-set-value"><link linkend="up-history-item-set-value">up_history_item_set_value</link>, function in <link linkend="UpHistoryItem">UpHistoryItem</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="UpStatsItem--accuracy"><link linkend="UpStatsItem--accuracy">UpStatsItem:accuracy</link>, object property in <link linkend="UpStatsItem">UpStatsItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpStatsItem--value"><link linkend="UpStatsItem--value">UpStatsItem:value</link>, object property in <link linkend="UpStatsItem">UpStatsItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-stats-item-get-accuracy"><link linkend="up-stats-item-get-accuracy">up_stats_item_get_accuracy</link>, function in <link linkend="UpStatsItem">UpStatsItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-stats-item-get-value"><link linkend="up-stats-item-get-value">up_stats_item_get_value</link>, function in <link linkend="UpStatsItem">UpStatsItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-stats-item-new"><link linkend="up-stats-item-new">up_stats_item_new</link>, function in <link linkend="UpStatsItem">UpStatsItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-stats-item-set-accuracy"><link linkend="up-stats-item-set-accuracy">up_stats_item_set_accuracy</link>, function in <link linkend="UpStatsItem">UpStatsItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-stats-item-set-value"><link linkend="up-stats-item-set-value">up_stats_item_set_value</link>, function in <link linkend="UpStatsItem">UpStatsItem</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>W</title>
+<indexentry><primaryie linkends="UpWakeupItem--cmdline"><link linkend="UpWakeupItem--cmdline">UpWakeupItem:cmdline</link>, object property in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpWakeupItem--details"><link linkend="UpWakeupItem--details">UpWakeupItem:details</link>, object property in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpWakeupItem--id"><link linkend="UpWakeupItem--id">UpWakeupItem:id</link>, object property in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpWakeupItem--is-userspace"><link linkend="UpWakeupItem--is-userspace">UpWakeupItem:is-userspace</link>, object property in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpWakeupItem--old"><link linkend="UpWakeupItem--old">UpWakeupItem:old</link>, object property in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="UpWakeupItem--value"><link linkend="UpWakeupItem--value">UpWakeupItem:value</link>, object property in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-get-cmdline"><link linkend="up-wakeup-item-get-cmdline">up_wakeup_item_get_cmdline</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-get-details"><link linkend="up-wakeup-item-get-details">up_wakeup_item_get_details</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-get-id"><link linkend="up-wakeup-item-get-id">up_wakeup_item_get_id</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-get-is-userspace"><link linkend="up-wakeup-item-get-is-userspace">up_wakeup_item_get_is_userspace</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-get-old"><link linkend="up-wakeup-item-get-old">up_wakeup_item_get_old</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-get-value"><link linkend="up-wakeup-item-get-value">up_wakeup_item_get_value</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-new"><link linkend="up-wakeup-item-new">up_wakeup_item_new</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-set-cmdline"><link linkend="up-wakeup-item-set-cmdline">up_wakeup_item_set_cmdline</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-set-details"><link linkend="up-wakeup-item-set-details">up_wakeup_item_set_details</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-set-id"><link linkend="up-wakeup-item-set-id">up_wakeup_item_set_id</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-set-is-userspace"><link linkend="up-wakeup-item-set-is-userspace">up_wakeup_item_set_is_userspace</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-set-old"><link linkend="up-wakeup-item-set-old">up_wakeup_item_set_old</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+<indexentry><primaryie linkends="up-wakeup-item-set-value"><link linkend="up-wakeup-item-set-value">up_wakeup_item_set_value</link>, function in <link linkend="UpWakeupItem">UpWakeupItem</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

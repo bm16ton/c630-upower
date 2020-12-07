@@ -1,0 +1,7 @@
+<!ENTITY package "upower">
+<!ENTITY package_bugreport "https://bugs.freedesktop.org/enter_bug.cgi?product=upower">
+<!ENTITY package_name "upower">
+<!ENTITY package_string "upower 0.99.11">
+<!ENTITY package_tarname "upower">
+<!ENTITY package_url "http://upower.freedesktop.org/">
+<!ENTITY package_version "0.99.11">

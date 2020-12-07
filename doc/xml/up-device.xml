@@ -1,0 +1,607 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+[
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY % gtkdocentities SYSTEM "../xml/gtkdocentities.ent">
+  %gtkdocentities;
+]>
+<refentry id="UpDevice">
+<refmeta>
+<refentrytitle role="top_of_page" id="UpDevice.top_of_page">UpDevice</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>UPOWER Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>UpDevice</refname>
+<refpurpose>Client object for accessing information about UPower devices</refpurpose>
+</refnamediv>
+
+<refsect1 id="UpDevice.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="UpDevice"><returnvalue>UpDevice</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="up-device-new">up_device_new</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="gchar"><returnvalue>gchar</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="up-device-to-text">up_device_to_text</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="gboolean"><returnvalue>gboolean</returnvalue></link>
+</entry><entry role="function_name"><link linkend="up-device-refresh-sync">up_device_refresh_sync</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="gboolean"><returnvalue>gboolean</returnvalue></link>
+</entry><entry role="function_name"><link linkend="up-device-set-object-path-sync">up_device_set_object_path_sync</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="GPtrArray"><returnvalue>GPtrArray</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="up-device-get-history-sync">up_device_get_history_sync</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="GPtrArray"><returnvalue>GPtrArray</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="up-device-get-statistics-sync">up_device_get_statistics_sync</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">const <link linkend="gchar"><returnvalue>gchar</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="up-device-get-object-path">up_device_get_object_path</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="UpDevice.properties" role="properties">
+<title role="properties.title">Properties</title>
+<informaltable frame="none">
+<tgroup cols="3">
+<colspec colname="properties_type" colwidth="150px"/>
+<colspec colname="properties_name" colwidth="300px"/>
+<colspec colname="properties_flags" colwidth="200px"/>
+<tbody>
+<row><entry role="property_type"><link linkend="guint"><type>guint</type></link></entry><entry role="property_name"><link linkend="UpDevice--battery-level">battery-level</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--capacity">capacity</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--energy">energy</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--energy-empty">energy-empty</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--energy-full">energy-full</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--energy-full-design">energy-full-design</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--energy-rate">energy-rate</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gboolean"><type>gboolean</type></link></entry><entry role="property_name"><link linkend="UpDevice--has-history">has-history</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gboolean"><type>gboolean</type></link></entry><entry role="property_name"><link linkend="UpDevice--has-statistics">has-statistics</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gchar"><type>gchar</type></link>&#160;*</entry><entry role="property_name"><link linkend="UpDevice--icon-name">icon-name</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gboolean"><type>gboolean</type></link></entry><entry role="property_name"><link linkend="UpDevice--is-present">is-present</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gboolean"><type>gboolean</type></link></entry><entry role="property_name"><link linkend="UpDevice--is-rechargeable">is-rechargeable</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="guint"><type>guint</type></link></entry><entry role="property_name"><link linkend="UpDevice--kind">kind</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--luminosity">luminosity</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gchar"><type>gchar</type></link>&#160;*</entry><entry role="property_name"><link linkend="UpDevice--model">model</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gchar"><type>gchar</type></link>&#160;*</entry><entry role="property_name"><link linkend="UpDevice--native-path">native-path</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gboolean"><type>gboolean</type></link></entry><entry role="property_name"><link linkend="UpDevice--online">online</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--percentage">percentage</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gboolean"><type>gboolean</type></link></entry><entry role="property_name"><link linkend="UpDevice--power-supply">power-supply</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gchar"><type>gchar</type></link>&#160;*</entry><entry role="property_name"><link linkend="UpDevice--serial">serial</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="guint"><type>guint</type></link></entry><entry role="property_name"><link linkend="UpDevice--state">state</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="guint"><type>guint</type></link></entry><entry role="property_name"><link linkend="UpDevice--technology">technology</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--temperature">temperature</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gint64"><type>gint64</type></link></entry><entry role="property_name"><link linkend="UpDevice--time-to-empty">time-to-empty</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gint64"><type>gint64</type></link></entry><entry role="property_name"><link linkend="UpDevice--time-to-full">time-to-full</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="guint64"><type>guint64</type></link></entry><entry role="property_name"><link linkend="UpDevice--update-time">update-time</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gchar"><type>gchar</type></link>&#160;*</entry><entry role="property_name"><link linkend="UpDevice--vendor">vendor</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="gdouble"><type>gdouble</type></link></entry><entry role="property_name"><link linkend="UpDevice--voltage">voltage</link></entry><entry role="property_flags">Read / Write</entry></row>
+<row><entry role="property_type"><link linkend="guint"><type>guint</type></link></entry><entry role="property_name"><link linkend="UpDevice--warning-level">warning-level</link></entry><entry role="property_flags">Read / Write</entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="UpDevice.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="UP-DEVICE-ERROR:CAPS">UP_DEVICE_ERROR</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="UP-DEVICE-TYPE-ERROR:CAPS">UP_DEVICE_TYPE_ERROR</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="UpDevice.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<screen>    <link linkend="GObject">GObject</link>
+    <phrase role="lineart">&#9584;&#9472;&#9472;</phrase> UpDevice
+</screen>
+</refsect1>
+
+
+<refsect1 id="UpDevice.description" role="desc">
+<title role="desc.title">Description</title>
+<para>A helper GObject to use for accessing UPower devices, and to be notified
+when it is changed.</para>
+
+</refsect1>
+<refsect1 id="UpDevice.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="up-device-new" role="function" condition="since:0.9.0">
+<title>up_device_new&#160;()</title>
+<indexterm zone="up-device-new" role="0.9.0"><primary>up_device_new</primary></indexterm>
+<programlisting language="C"><link linkend="UpDevice"><returnvalue>UpDevice</returnvalue></link>&#160;*
+up_device_new (<parameter><type>void</type></parameter>);</programlisting>
+<para>Creates a new <link linkend="UpDevice"><type>UpDevice</type></link> object.</para>
+<refsect3 id="up-device-new.returns" role="returns">
+<title>Returns</title>
+<para> a new UpDevice object.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="up-device-to-text" role="function" condition="since:0.9.0">
+<title>up_device_to_text&#160;()</title>
+<indexterm zone="up-device-to-text" role="0.9.0"><primary>up_device_to_text</primary></indexterm>
+<programlisting language="C"><link linkend="gchar"><returnvalue>gchar</returnvalue></link>&#160;*
+up_device_to_text (<parameter><link linkend="UpDevice"><type>UpDevice</type></link> *device</parameter>);</programlisting>
+<para>Converts the device to a string description.</para>
+<refsect3 id="up-device-to-text.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>device</para></entry>
+<entry role="parameter_description"><para>a <link linkend="UpDevice"><type>UpDevice</type></link> instance.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="up-device-to-text.returns" role="returns">
+<title>Returns</title>
+<para> text representation of <link linkend="UpDevice"><type>UpDevice</type></link></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="up-device-refresh-sync" role="function" condition="since:0.9.0">
+<title>up_device_refresh_sync&#160;()</title>
+<indexterm zone="up-device-refresh-sync" role="0.9.0"><primary>up_device_refresh_sync</primary></indexterm>
+<programlisting language="C"><link linkend="gboolean"><returnvalue>gboolean</returnvalue></link>
+up_device_refresh_sync (<parameter><link linkend="UpDevice"><type>UpDevice</type></link> *device</parameter>,
+                        <parameter><link linkend="GCancellable"><type>GCancellable</type></link> *cancellable</parameter>,
+                        <parameter><link linkend="GError"><type>GError</type></link> **error</parameter>);</programlisting>
+<para>Refreshes properties on the device.
+This function is normally not required.</para>
+<refsect3 id="up-device-refresh-sync.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>device</para></entry>
+<entry role="parameter_description"><para>a <link linkend="UpDevice"><type>UpDevice</type></link> instance.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>cancellable</para></entry>
+<entry role="parameter_description"><para>a <link linkend="GCancellable"><type>GCancellable</type></link> or <link linkend="NULL:CAPS"><literal>NULL</literal></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>error</para></entry>
+<entry role="parameter_description"><para>a <link linkend="GError"><type>GError</type></link>, or <link linkend="NULL:CAPS"><literal>NULL</literal></link>.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="up-device-refresh-sync.returns" role="returns">
+<title>Returns</title>
+<para> <link linkend="TRUE:CAPS"><type>TRUE</type></link> for success, else <link linkend="FALSE:CAPS"><type>FALSE</type></link> and <parameter>error</parameter>
+is used</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="up-device-set-object-path-sync" role="function" condition="since:0.9.0">
+<title>up_device_set_object_path_sync&#160;()</title>
+<indexterm zone="up-device-set-object-path-sync" role="0.9.0"><primary>up_device_set_object_path_sync</primary></indexterm>
+<programlisting language="C"><link linkend="gboolean"><returnvalue>gboolean</returnvalue></link>
+up_device_set_object_path_sync (<parameter><link linkend="UpDevice"><type>UpDevice</type></link> *device</parameter>,
+                                <parameter>const <link linkend="gchar"><type>gchar</type></link> *object_path</parameter>,
+                                <parameter><link linkend="GCancellable"><type>GCancellable</type></link> *cancellable</parameter>,
+                                <parameter><link linkend="GError"><type>GError</type></link> **error</parameter>);</programlisting>
+<para>Sets the object path of the object and fills up initial properties.</para>
+<refsect3 id="up-device-set-object-path-sync.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>device</para></entry>
+<entry role="parameter_description"><para>a <link linkend="UpDevice"><type>UpDevice</type></link> instance.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>object_path</para></entry>
+<entry role="parameter_description"><para>The UPower object path.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>cancellable</para></entry>
+<entry role="parameter_description"><para>a <link linkend="GCancellable"><type>GCancellable</type></link> or <link linkend="NULL:CAPS"><literal>NULL</literal></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>error</para></entry>
+<entry role="parameter_description"><para>a <link linkend="GError"><type>GError</type></link>, or <link linkend="NULL:CAPS"><literal>NULL</literal></link>.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="up-device-set-object-path-sync.returns" role="returns">
+<title>Returns</title>
+<para> <link linkend="TRUE:CAPS"><type>TRUE</type></link> for success, else <link linkend="FALSE:CAPS"><type>FALSE</type></link> and <parameter>error</parameter>
+is used</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="up-device-get-history-sync" role="function" condition="since:0.9.0">
+<title>up_device_get_history_sync&#160;()</title>
+<indexterm zone="up-device-get-history-sync" role="0.9.0"><primary>up_device_get_history_sync</primary></indexterm>
+<programlisting language="C"><link linkend="GPtrArray"><returnvalue>GPtrArray</returnvalue></link>&#160;*
+up_device_get_history_sync (<parameter><link linkend="UpDevice"><type>UpDevice</type></link> *device</parameter>,
+                            <parameter>const <link linkend="gchar"><type>gchar</type></link> *type</parameter>,
+                            <parameter><link linkend="guint"><type>guint</type></link> timespec</parameter>,
+                            <parameter><link linkend="guint"><type>guint</type></link> resolution</parameter>,
+                            <parameter><link linkend="GCancellable"><type>GCancellable</type></link> *cancellable</parameter>,
+                            <parameter><link linkend="GError"><type>GError</type></link> **error</parameter>);</programlisting>
+<para>Gets the device history.</para>
+<refsect3 id="up-device-get-history-sync.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>device</para></entry>
+<entry role="parameter_description"><para>a <link linkend="UpDevice"><type>UpDevice</type></link> instance.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>type</para></entry>
+<entry role="parameter_description"><para>The type of history, known values are "rate" and "charge".</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>timespec</para></entry>
+<entry role="parameter_description"><para>the amount of time to look back into time.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>resolution</para></entry>
+<entry role="parameter_description"><para>the resolution of data.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>cancellable</para></entry>
+<entry role="parameter_description"><para>a <link linkend="GCancellable"><type>GCancellable</type></link> or <link linkend="NULL:CAPS"><literal>NULL</literal></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>error</para></entry>
+<entry role="parameter_description"><para>a <link linkend="GError"><type>GError</type></link>, or <link linkend="NULL:CAPS"><literal>NULL</literal></link>.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="up-device-get-history-sync.returns" role="returns">
+<title>Returns</title>
+<para>an array of <link linkend="UpHistoryItem"><type>UpHistoryItem</type></link>'s, with the most
+recent one being first; <link linkend="NULL:CAPS"><literal>NULL</literal></link> if <parameter>error</parameter>
+is set or <parameter>device</parameter>
+is
+invalid. </para>
+<para><emphasis role="annotation">[<acronym>element-type</acronym> UpHistoryItem][<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="up-device-get-statistics-sync" role="function" condition="since:0.9.0">
+<title>up_device_get_statistics_sync&#160;()</title>
+<indexterm zone="up-device-get-statistics-sync" role="0.9.0"><primary>up_device_get_statistics_sync</primary></indexterm>
+<programlisting language="C"><link linkend="GPtrArray"><returnvalue>GPtrArray</returnvalue></link>&#160;*
+up_device_get_statistics_sync (<parameter><link linkend="UpDevice"><type>UpDevice</type></link> *device</parameter>,
+                               <parameter>const <link linkend="gchar"><type>gchar</type></link> *type</parameter>,
+                               <parameter><link linkend="GCancellable"><type>GCancellable</type></link> *cancellable</parameter>,
+                               <parameter><link linkend="GError"><type>GError</type></link> **error</parameter>);</programlisting>
+<para>Gets the device current statistics.</para>
+<refsect3 id="up-device-get-statistics-sync.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>device</para></entry>
+<entry role="parameter_description"><para>a <link linkend="UpDevice"><type>UpDevice</type></link> instance.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>type</para></entry>
+<entry role="parameter_description"><para>the type of statistics.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>cancellable</para></entry>
+<entry role="parameter_description"><para>a <link linkend="GCancellable"><type>GCancellable</type></link> or <link linkend="NULL:CAPS"><literal>NULL</literal></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>error</para></entry>
+<entry role="parameter_description"><para>a <link linkend="GError"><type>GError</type></link>, or <link linkend="NULL:CAPS"><literal>NULL</literal></link>.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="up-device-get-statistics-sync.returns" role="returns">
+<title>Returns</title>
+<para>an array of <link linkend="UpStatsItem"><type>UpStatsItem</type></link>'s, else <link linkend="NULL:CAPS"><type>NULL</type></link> and <parameter>error</parameter>
+is used. </para>
+<para><emphasis role="annotation">[<acronym>element-type</acronym> UpStatsItem][<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="up-device-get-object-path" role="function" condition="since:0.9.0">
+<title>up_device_get_object_path&#160;()</title>
+<indexterm zone="up-device-get-object-path" role="0.9.0"><primary>up_device_get_object_path</primary></indexterm>
+<programlisting language="C">const <link linkend="gchar"><returnvalue>gchar</returnvalue></link>&#160;*
+up_device_get_object_path (<parameter><link linkend="UpDevice"><type>UpDevice</type></link> *device</parameter>);</programlisting>
+<para>Gets the object path for the device.</para>
+<refsect3 id="up-device-get-object-path.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>device</para></entry>
+<entry role="parameter_description"><para>a <link linkend="UpDevice"><type>UpDevice</type></link> instance.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="up-device-get-object-path.returns" role="returns">
+<title>Returns</title>
+<para> the object path, or <link linkend="NULL:CAPS"><literal>NULL</literal></link></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="UpDevice.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="UP-DEVICE-ERROR:CAPS" role="macro">
+<title>UP_DEVICE_ERROR</title>
+<indexterm zone="UP-DEVICE-ERROR:CAPS"><primary>UP_DEVICE_ERROR</primary></indexterm>
+<programlisting language="C">#define UP_DEVICE_ERROR		(up_device_error_quark ())
+</programlisting>
+</refsect2>
+<refsect2 id="UP-DEVICE-TYPE-ERROR:CAPS" role="macro">
+<title>UP_DEVICE_TYPE_ERROR</title>
+<indexterm zone="UP-DEVICE-TYPE-ERROR:CAPS"><primary>UP_DEVICE_TYPE_ERROR</primary></indexterm>
+<programlisting language="C">#define UP_DEVICE_TYPE_ERROR&#160;(up_device_error_get_type ())
+</programlisting>
+</refsect2>
+
+</refsect1>
+<refsect1 id="UpDevice.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="UpDevice--battery-level" role="property"><title>The <literal>“battery-level”</literal> property</title>
+<indexterm zone="UpDevice--battery-level" role="1.0"><primary>UpDevice:battery-level</primary></indexterm>
+<programlisting>  “battery-level”            <link linkend="guint"><type>guint</type></link></programlisting>
+<para>The battery level, e.g. <link linkend="UP-DEVICE-LEVEL-CRITICAL:CAPS"><literal>UP_DEVICE_LEVEL_CRITICAL</literal></link>. If this is something
+other than <link linkend="UP-DEVICE-LEVEL-NONE:CAPS"><literal>UP_DEVICE_LEVEL_NONE</literal></link>, then User Interfaces should use this
+approximate level instead of percentages.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &lt;= 9</para>
+<para>Default value: 1</para>
+<para role="since">Since: <link linkend="api-index-1.0">1.0</link></para></refsect2>
+<refsect2 id="UpDevice--capacity" role="property"><title>The <literal>“capacity”</literal> property</title>
+<indexterm zone="UpDevice--capacity" role="0.9.0"><primary>UpDevice:capacity</primary></indexterm>
+<programlisting>  “capacity”                 <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The percentage capacity of the device where 100% means the device has
+the same charge potential as when it was manufactured.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: [0,100]</para>
+<para>Default value: 100</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--energy" role="property"><title>The <literal>“energy”</literal> property</title>
+<indexterm zone="UpDevice--energy" role="0.9.0"><primary>UpDevice:energy</primary></indexterm>
+<programlisting>  “energy”                   <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The energy left in the device. Measured in mWh.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--energy-empty" role="property"><title>The <literal>“energy-empty”</literal> property</title>
+<indexterm zone="UpDevice--energy-empty" role="0.9.0"><primary>UpDevice:energy-empty</primary></indexterm>
+<programlisting>  “energy-empty”             <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The energy the device will have when it is empty. This is usually zero.
+Measured in mWh.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--energy-full" role="property"><title>The <literal>“energy-full”</literal> property</title>
+<indexterm zone="UpDevice--energy-full" role="0.9.0"><primary>UpDevice:energy-full</primary></indexterm>
+<programlisting>  “energy-full”              <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The amount of energy when the device is fully charged. Measured in mWh.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--energy-full-design" role="property"><title>The <literal>“energy-full-design”</literal> property</title>
+<indexterm zone="UpDevice--energy-full-design" role="0.9.0"><primary>UpDevice:energy-full-design</primary></indexterm>
+<programlisting>  “energy-full-design”       <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The amount of energy when the device was brand new. Measured in mWh.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--energy-rate" role="property"><title>The <literal>“energy-rate”</literal> property</title>
+<indexterm zone="UpDevice--energy-rate" role="0.9.0"><primary>UpDevice:energy-rate</primary></indexterm>
+<programlisting>  “energy-rate”              <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The rate of discharge or charge. Measured in mW.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--has-history" role="property"><title>The <literal>“has-history”</literal> property</title>
+<indexterm zone="UpDevice--has-history" role="0.9.0"><primary>UpDevice:has-history</primary></indexterm>
+<programlisting>  “has-history”              <link linkend="gboolean"><type>gboolean</type></link></programlisting>
+<para>If the device has history data that might be useful.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: FALSE</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--has-statistics" role="property"><title>The <literal>“has-statistics”</literal> property</title>
+<indexterm zone="UpDevice--has-statistics" role="0.9.0"><primary>UpDevice:has-statistics</primary></indexterm>
+<programlisting>  “has-statistics”           <link linkend="gboolean"><type>gboolean</type></link></programlisting>
+<para>If the device has statistics data that might be useful.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: FALSE</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--icon-name" role="property"><title>The <literal>“icon-name”</literal> property</title>
+<indexterm zone="UpDevice--icon-name" role="1.0"><primary>UpDevice:icon-name</primary></indexterm>
+<programlisting>  “icon-name”                <link linkend="gchar"><type>gchar</type></link>&#160;*</programlisting>
+<para>The icon name, following the Icon Naming Speficiation</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: NULL</para>
+<para role="since">Since: <link linkend="api-index-1.0">1.0</link></para></refsect2>
+<refsect2 id="UpDevice--is-present" role="property"><title>The <literal>“is-present”</literal> property</title>
+<indexterm zone="UpDevice--is-present" role="0.9.0"><primary>UpDevice:is-present</primary></indexterm>
+<programlisting>  “is-present”               <link linkend="gboolean"><type>gboolean</type></link></programlisting>
+<para>If the device is present, as some devices like laptop batteries
+can be removed, leaving an empty bay that is still technically a
+device.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: FALSE</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--is-rechargeable" role="property"><title>The <literal>“is-rechargeable”</literal> property</title>
+<indexterm zone="UpDevice--is-rechargeable" role="0.9.0"><primary>UpDevice:is-rechargeable</primary></indexterm>
+<programlisting>  “is-rechargeable”          <link linkend="gboolean"><type>gboolean</type></link></programlisting>
+<para>If the device has a rechargable battery.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: FALSE</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--kind" role="property"><title>The <literal>“kind”</literal> property</title>
+<indexterm zone="UpDevice--kind" role="0.9.0"><primary>UpDevice:kind</primary></indexterm>
+<programlisting>  “kind”                     <link linkend="guint"><type>guint</type></link></programlisting>
+<para>The device kind, e.g. <link linkend="UP-DEVICE-KIND-KEYBOARD:CAPS"><literal>UP_DEVICE_KIND_KEYBOARD</literal></link>.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &lt;= 13</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--luminosity" role="property"><title>The <literal>“luminosity”</literal> property</title>
+<indexterm zone="UpDevice--luminosity" role="0.9.19"><primary>UpDevice:luminosity</primary></indexterm>
+<programlisting>  “luminosity”               <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The current luminosity of the device.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.19">0.9.19</link></para></refsect2>
+<refsect2 id="UpDevice--model" role="property"><title>The <literal>“model”</literal> property</title>
+<indexterm zone="UpDevice--model" role="0.9.0"><primary>UpDevice:model</primary></indexterm>
+<programlisting>  “model”                    <link linkend="gchar"><type>gchar</type></link>&#160;*</programlisting>
+<para>The model of the device.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: NULL</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--native-path" role="property"><title>The <literal>“native-path”</literal> property</title>
+<indexterm zone="UpDevice--native-path" role="0.9.0"><primary>UpDevice:native-path</primary></indexterm>
+<programlisting>  “native-path”              <link linkend="gchar"><type>gchar</type></link>&#160;*</programlisting>
+<para>The native path of the device, useful for direct device access.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: NULL</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--online" role="property"><title>The <literal>“online”</literal> property</title>
+<indexterm zone="UpDevice--online" role="0.9.0"><primary>UpDevice:online</primary></indexterm>
+<programlisting>  “online”                   <link linkend="gboolean"><type>gboolean</type></link></programlisting>
+<para>If the device is online, i.e. connected.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: FALSE</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--percentage" role="property"><title>The <literal>“percentage”</literal> property</title>
+<indexterm zone="UpDevice--percentage" role="0.9.0"><primary>UpDevice:percentage</primary></indexterm>
+<programlisting>  “percentage”               <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The percentage charge of the device. Note that if the battery level property
+is something other than <link linkend="UP-DEVICE-LEVEL-NONE:CAPS"><literal>UP_DEVICE_LEVEL_NONE</literal></link>, then this percentage is an
+approximation, and should not be used a number to display to the user.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: [0,100]</para>
+<para>Default value: 100</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--power-supply" role="property"><title>The <literal>“power-supply”</literal> property</title>
+<indexterm zone="UpDevice--power-supply" role="0.9.0"><primary>UpDevice:power-supply</primary></indexterm>
+<programlisting>  “power-supply”             <link linkend="gboolean"><type>gboolean</type></link></programlisting>
+<para>If the device is powering the system.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: FALSE</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--serial" role="property"><title>The <literal>“serial”</literal> property</title>
+<indexterm zone="UpDevice--serial" role="0.9.0"><primary>UpDevice:serial</primary></indexterm>
+<programlisting>  “serial”                   <link linkend="gchar"><type>gchar</type></link>&#160;*</programlisting>
+<para>The serial number of the device.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: NULL</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--state" role="property"><title>The <literal>“state”</literal> property</title>
+<indexterm zone="UpDevice--state" role="0.9.0"><primary>UpDevice:state</primary></indexterm>
+<programlisting>  “state”                    <link linkend="guint"><type>guint</type></link></programlisting>
+<para>The state the device is in at this time, e.g. <link linkend="UP-DEVICE-STATE-EMPTY:CAPS"><literal>UP_DEVICE_STATE_EMPTY</literal></link>.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &lt;= 7</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--technology" role="property"><title>The <literal>“technology”</literal> property</title>
+<indexterm zone="UpDevice--technology" role="0.9.0"><primary>UpDevice:technology</primary></indexterm>
+<programlisting>  “technology”               <link linkend="guint"><type>guint</type></link></programlisting>
+<para>The battery technology e.g. <link linkend="UP-DEVICE-TECHNOLOGY-LITHIUM-ION:CAPS"><literal>UP_DEVICE_TECHNOLOGY_LITHIUM_ION</literal></link>.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &lt;= 7</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--temperature" role="property"><title>The <literal>“temperature”</literal> property</title>
+<indexterm zone="UpDevice--temperature" role="0.9.22"><primary>UpDevice:temperature</primary></indexterm>
+<programlisting>  “temperature”              <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The temperature of the device in degrees Celsius.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.22">0.9.22</link></para></refsect2>
+<refsect2 id="UpDevice--time-to-empty" role="property"><title>The <literal>“time-to-empty”</literal> property</title>
+<indexterm zone="UpDevice--time-to-empty" role="0.9.0"><primary>UpDevice:time-to-empty</primary></indexterm>
+<programlisting>  “time-to-empty”            <link linkend="gint64"><type>gint64</type></link></programlisting>
+<para>The amount of time until the device is empty.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--time-to-full" role="property"><title>The <literal>“time-to-full”</literal> property</title>
+<indexterm zone="UpDevice--time-to-full" role="0.9.0"><primary>UpDevice:time-to-full</primary></indexterm>
+<programlisting>  “time-to-full”             <link linkend="gint64"><type>gint64</type></link></programlisting>
+<para>The amount of time until the device is fully charged.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--update-time" role="property"><title>The <literal>“update-time”</literal> property</title>
+<indexterm zone="UpDevice--update-time" role="0.9.0"><primary>UpDevice:update-time</primary></indexterm>
+<programlisting>  “update-time”              <link linkend="guint64"><type>guint64</type></link></programlisting>
+<para>The last time the device was updated.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--vendor" role="property"><title>The <literal>“vendor”</literal> property</title>
+<indexterm zone="UpDevice--vendor" role="0.9.0"><primary>UpDevice:vendor</primary></indexterm>
+<programlisting>  “vendor”                   <link linkend="gchar"><type>gchar</type></link>&#160;*</programlisting>
+<para>The vendor of the device.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Default value: NULL</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--voltage" role="property"><title>The <literal>“voltage”</literal> property</title>
+<indexterm zone="UpDevice--voltage" role="0.9.0"><primary>UpDevice:voltage</primary></indexterm>
+<programlisting>  “voltage”                  <link linkend="gdouble"><type>gdouble</type></link></programlisting>
+<para>The current voltage of the device.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &gt;= 0</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-0.9.0">0.9.0</link></para></refsect2>
+<refsect2 id="UpDevice--warning-level" role="property"><title>The <literal>“warning-level”</literal> property</title>
+<indexterm zone="UpDevice--warning-level" role="1.0"><primary>UpDevice:warning-level</primary></indexterm>
+<programlisting>  “warning-level”            <link linkend="guint"><type>guint</type></link></programlisting>
+<para>The warning level e.g. <link linkend="UP-DEVICE-LEVEL-CRITICAL:CAPS"><literal>UP_DEVICE_LEVEL_CRITICAL</literal></link>.</para>
+<para>Owner: UpDevice</para>
+<para>Flags: Read / Write</para>
+<para>Allowed values: &lt;= 9</para>
+<para>Default value: 0</para>
+<para role="since">Since: <link linkend="api-index-1.0">1.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="UpDevice.see-also">
+<title>See Also</title>
+<para><link linkend="UpClient"><type>UpClient</type></link></para>
+
+</refsect1>
+
+</refentry>
