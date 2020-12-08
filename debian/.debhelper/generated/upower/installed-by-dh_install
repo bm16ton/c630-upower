@@ -1,9 +1,0 @@
-debian/tmp/etc/UPower/UPower.conf
-debian/tmp/lib/systemd/
-debian/tmp/lib/udev/rules.d/
-debian/tmp/usr/bin/upower
-debian/tmp/usr/libexec/upowerd
-debian/tmp/usr/share/dbus-1/
-debian/tmp/usr/share/locale/
-debian/tmp/usr/share/man/
-debian/tmp/var/lib/
