@@ -1047,9 +1047,9 @@ static void
 load_time_policy (UpDaemon    *daemon,
 		  gboolean     load_default)
 {
-	LOAD_OR_DEFAULT (daemon->priv->low_time, "TimeLow", 1200);
-	LOAD_OR_DEFAULT (daemon->priv->critical_time, "TimeCritical", 300);
-	LOAD_OR_DEFAULT (daemon->priv->action_time, "TimeAction", 120);
+	LOAD_OR_DEFAULT (daemon->priv->low_time, "TimeLow", 400);
+	LOAD_OR_DEFAULT (daemon->priv->critical_time, "TimeCritical", 100);
+	LOAD_OR_DEFAULT (daemon->priv->action_time, "TimeAction", 40);
 }
 
 #define IS_DESCENDING(x, y, z) (x > y && y > z)
