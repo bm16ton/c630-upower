@@ -1,6 +1,6 @@
 Package: gir1.2-upowerglib-1.0
 Source: upower
-Version: 0.99.11-2
+Version: 0.99.11-17
 Architecture: arm64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 34

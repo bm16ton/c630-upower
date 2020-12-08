@@ -12,9 +12,11 @@ ed3c3042f451791a3eb299989dc7a9fb  ./doc/spec-to-docbook.xsl
 031e2c58d49ea64b70223727804e6f35  ./doc/man/upowerd.xml
 95325defd245e1b2431cf2aa6d39eb04  ./doc/man/Makefile.am
 20d949ee3965221fec1987e66a98b5fd  ./doc/man/Makefile.in
+afca1195ba63bdec0b9efaf0aefa9171  ./doc/upower-docs.xml
 a6511f09aca15e78a1c74d9c294687d9  ./doc/version.xml.in
+d41d8cd98f00b204e9800998ecf8427e  ./doc/UPower-overrides.txt
 1a9037adac2d13fffda8e8fd93da0cd6  ./doc/Makefile.am
-848a00c79072d63c4096f3f13423ca2e  ./doc/Makefile.in
+5d12cce11422b08089143855423175c1  ./doc/Makefile.in
 8fbde8a06e5b8d393192ac47c3a75e4d  ./src/up-wakeups.h
 36263f14ae50bcf578557d8c68306b65  ./src/up-kbd-backlight.c
 d2993518e2cf44b4cc1aec0ecf2905fb  ./src/up-constants.h
@@ -35,7 +37,7 @@ c4e759e433adfbdea06f50763228d98e  ./src/up-daemon.h
 a5dcd3e6ff3b405a0d7da288e4a1b1b2  ./src/up-main.c
 f303b1dcd00f9fa6b83a97ab65fbdfb2  ./src/up-native.h
 03e14889b6720162af87dce10f70027c  ./src/up-wakeups.c
-491d5c222cef1761dd68143f6df7e238  ./src/up-daemon.c
+31fd5b91e7dc907b7c2b661cf8746769  ./src/up-daemon.c
 fe8abd675ca08a7cd254232a120fd898  ./src/up-history.h
 430f5223b0dcb2b9a1bc60463b842818  ./src/org.freedesktop.UPower.conf.in
 b95841b882d7693c3ff3139da0d53449  ./src/up-config.c
@@ -99,7 +101,7 @@ a93470336d96cac41a6475745bd8e1f0  ./src/up-device-list.c
 cc7e39b3cf96d126242aeec91fb16cf5  ./autom4te.cache/output.3
 cc7e39b3cf96d126242aeec91fb16cf5  ./autom4te.cache/output.2
 cc7e39b3cf96d126242aeec91fb16cf5  ./autom4te.cache/output.1
-86db711368914cd5623d854762e46bf7  ./autom4te.cache/requests
+ce6591cce43439026e0f3568a8cab397  ./autom4te.cache/requests
 9dded9a6b172973bfe58fceeea0b349f  ./autom4te.cache/traces.2
 c92f7344d9ca8c555cd0a41fdffca365  ./autom4te.cache/traces.1
 fbea7804877c44c981b1b5422cc59182  ./autom4te.cache/traces.3

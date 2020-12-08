@@ -1,9 +1,9 @@
 Package: libupower-glib3
 Source: upower
-Version: 0.99.11-2
+Version: 0.99.11-17
 Architecture: arm64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 195
+Installed-Size: 171
 Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3)
 Recommends: upower (>> 0.99)
 Section: libs

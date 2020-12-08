@@ -1,12 +1,12 @@
 Package: upower-dbgsym
 Source: upower
-Version: 0.99.11-2
+Version: 0.99.11-17
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 335
-Depends: upower (= 0.99.11-2)
+Installed-Size: 312
+Depends: upower (= 0.99.11-17)
 Section: debug
 Priority: optional
 Description: debug symbols for upower
-Build-Ids: 91913d7f17d468b27524c4c32903c75358b9ad63 a5aacd794f429745396d4ec14dd5274cb84002df
+Build-Ids: 44b5485d102cac7f6823af0194279dc4fbbd6aa0 7a85b345583c8e96943e23b350c3a4abdd93d01e

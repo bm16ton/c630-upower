@@ -9,7 +9,9 @@ ed3c3042f451791a3eb299989dc7a9fb  ./doc/spec-to-docbook.xsl
 158f7189220f65e0a4668027122eb736  ./doc/man/upower.xml
 031e2c58d49ea64b70223727804e6f35  ./doc/man/upowerd.xml
 95325defd245e1b2431cf2aa6d39eb04  ./doc/man/Makefile.am
+afca1195ba63bdec0b9efaf0aefa9171  ./doc/upower-docs.xml
 a6511f09aca15e78a1c74d9c294687d9  ./doc/version.xml.in
+d41d8cd98f00b204e9800998ecf8427e  ./doc/UPower-overrides.txt
 1a9037adac2d13fffda8e8fd93da0cd6  ./doc/Makefile.am
 8fbde8a06e5b8d393192ac47c3a75e4d  ./src/up-wakeups.h
 36263f14ae50bcf578557d8c68306b65  ./src/up-kbd-backlight.c
@@ -29,7 +31,7 @@ c4e759e433adfbdea06f50763228d98e  ./src/up-daemon.h
 a5dcd3e6ff3b405a0d7da288e4a1b1b2  ./src/up-main.c
 f303b1dcd00f9fa6b83a97ab65fbdfb2  ./src/up-native.h
 03e14889b6720162af87dce10f70027c  ./src/up-wakeups.c
-491d5c222cef1761dd68143f6df7e238  ./src/up-daemon.c
+31fd5b91e7dc907b7c2b661cf8746769  ./src/up-daemon.c
 fe8abd675ca08a7cd254232a120fd898  ./src/up-history.h
 430f5223b0dcb2b9a1bc60463b842818  ./src/org.freedesktop.UPower.conf.in
 b95841b882d7693c3ff3139da0d53449  ./src/up-config.c

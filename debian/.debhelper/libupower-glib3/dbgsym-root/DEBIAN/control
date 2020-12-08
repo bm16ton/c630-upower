@@ -1,13 +1,13 @@
 Package: libupower-glib3-dbgsym
 Source: upower
-Version: 0.99.11-2
+Version: 0.99.11-17
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Installed-Size: 192
-Depends: libupower-glib3 (= 0.99.11-2)
+Installed-Size: 181
+Depends: libupower-glib3 (= 0.99.11-17)
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libupower-glib3
-Build-Ids: a1e4584c7d9816ff7ae28ba67b8e66ce49ac8103
+Build-Ids: 5d83b287a1e5b99a7ef7706835a3145bf9a82267

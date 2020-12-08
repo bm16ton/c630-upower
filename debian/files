@@ -1,8 +1,8 @@
-gir1.2-upowerglib-1.0_0.99.11-2_arm64.deb introspection optional
-libupower-glib-dev_0.99.11-2_arm64.deb libdevel optional
-libupower-glib3-dbgsym_0.99.11-2_arm64.deb debug optional automatic=yes
-libupower-glib3_0.99.11-2_arm64.deb libs optional
-upower-dbgsym_0.99.11-2_arm64.deb debug optional automatic=yes
-upower-doc_0.99.11-2_all.deb doc optional
-upower_0.99.11-2_arm64.buildinfo admin optional
-upower_0.99.11-2_arm64.deb admin optional
+gir1.2-upowerglib-1.0_0.99.11-17_arm64.deb introspection optional
+libupower-glib-dev_0.99.11-17_arm64.deb libdevel optional
+libupower-glib3-dbgsym_0.99.11-17_arm64.deb debug optional automatic=yes
+libupower-glib3_0.99.11-17_arm64.deb libs optional
+upower-dbgsym_0.99.11-17_arm64.deb debug optional automatic=yes
+upower-doc_0.99.11-17_all.deb doc optional
+upower_0.99.11-17_arm64.buildinfo admin optional
+upower_0.99.11-17_arm64.deb admin optional

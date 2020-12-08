@@ -1,6 +1,6 @@
 Package: upower-doc
 Source: upower
-Version: 0.99.11-2
+Version: 0.99.11-17
 Architecture: all
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 340

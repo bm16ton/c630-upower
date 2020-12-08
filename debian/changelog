@@ -1,3 +1,10 @@
+upower (0.99.11-17) unstable; urgency=medium
+
+  [ Ben Maddocks ]
+  * Yoga c630 fixes
+
+ -- Ben Maddocks <bm16ton@gmail.com>  Sat, 16 May 2020 18:55:03 +0200
+
 upower (0.99.11-2) unstable; urgency=medium
 
   [ Laurent Bigonville ]
@@ -466,7 +473,7 @@ upower (0.9.14-1) unstable; urgency=low
 
 upower (0.9.13-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
     - Modernize build system.
     - Update for the g_unix_signal_add_full() ABI break of glib 2.29.90.
     - Hardcode wacom battery devices as not power-supply devices.
@@ -816,7 +823,7 @@ upower (0.9.0+git20100216.72bb2-1) experimental; urgency=low
 devicekit-power (014-3) unstable; urgency=low
 
   * Add 02-dkpclient-singleton.patch: Make DkpClient a singleton to avoid some
-    weird race conditions. Patch taken from upstream git. (Closes: #567021, 
+    weird race conditions. Patch taken from upstream git. (Closes: #567021,
     LP: #425411)
 
  -- Martin Pitt <mpitt@debian.org>  Tue, 26 Jan 2010 20:26:03 +0100
